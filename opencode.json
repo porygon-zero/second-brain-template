@@ -1,0 +1,12 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "share": "disabled",
+  "skills": {
+    "paths": [".codex/skills"]
+  },
+  "permission": {
+    "edit": "ask",
+    "bash": "ask",
+    "external_directory": "deny"
+  }
+}

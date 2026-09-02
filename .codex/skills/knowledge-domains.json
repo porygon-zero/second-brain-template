@@ -1,0 +1,15 @@
+{
+  "knowledge-management": {
+    "hub_note": "Knowledge Management Map",
+    "description": "Practices for capturing, organizing, retrieving, reviewing, and applying durable knowledge.",
+    "includes": [
+      "note-taking",
+      "knowledge systems",
+      "retrieval practice"
+    ],
+    "excludes": [
+      "temporary task tracking",
+      "undistilled collections"
+    ]
+  }
+}

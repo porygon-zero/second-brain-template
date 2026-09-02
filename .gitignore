@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins
+.obsidian/themes
+.trash/
+*.bak
+*.tmp
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example

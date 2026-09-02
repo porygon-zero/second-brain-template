@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -eu
+
+script_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+vault_root=$(dirname -- "$script_dir")
+
+exec python3 "$vault_root/.codex/skills/analyze_communities.py" --vault "$vault_root" "$@"

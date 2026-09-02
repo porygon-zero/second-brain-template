@@ -1,0 +1,4 @@
+interface:
+  display_name: "Second Brain Expert"
+  short_description: "Default factual answers grounded in your vault"
+  default_prompt: "Use $second-brain-expert to answer this factual question from my vault first; clearly label any general-knowledge fallback."

@@ -1,0 +1,14 @@
+{
+  "artificial-intelligence": {
+    "hub_note": "AI Map",
+    "description": "Machine intelligence and its implications.",
+    "includes": ["machine learning", "AI governance"],
+    "excludes": ["general software"]
+  },
+  "software-architecture": {
+    "hub_note": "Architecture Map",
+    "description": "Structures and decisions shaping software systems.",
+    "includes": ["system design", "quality attributes"],
+    "excludes": ["general implementation"]
+  }
+}

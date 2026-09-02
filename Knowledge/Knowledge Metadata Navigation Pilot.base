@@ -1,0 +1,88 @@
+filters:
+  and:
+    - 'file.inFolder("Knowledge")'
+    - 'file.ext == "md"'
+    - 'type == "knowledge"'
+formulas:
+  note_link: 'file.asLink()'
+  kind_value: 'kind'
+  domains_value: 'domains'
+  source_type_value: 'source_type'
+  source_checked_value: 'source_checked'
+  stance_value: 'stance'
+  created_value: 'created'
+properties:
+  formula.note_link:
+    displayName: Note
+  formula.kind_value:
+    displayName: Kind
+  formula.domains_value:
+    displayName: Domains
+  formula.source_type_value:
+    displayName: Source type
+  formula.source_checked_value:
+    displayName: Source checked
+  formula.stance_value:
+    displayName: Stance
+  formula.created_value:
+    displayName: Created
+views:
+  - type: table
+    name: All knowledge by kind
+    groupBy:
+      property: formula.kind_value
+      direction: ASC
+    order:
+      - formula.note_link
+      - formula.kind_value
+      - formula.domains_value
+      - formula.stance_value
+      - formula.created_value
+  - type: table
+    name: Sources
+    filters:
+      and:
+        - 'kind == "source"'
+    groupBy:
+      property: formula.source_type_value
+      direction: ASC
+    order:
+      - formula.note_link
+      - formula.source_type_value
+      - formula.domains_value
+      - formula.source_checked_value
+  - type: table
+    name: Sources lacking recorded verification
+    filters:
+      and:
+        - 'kind == "source"'
+        - '!file.hasProperty("source_checked")'
+    order:
+      - formula.note_link
+      - formula.source_type_value
+      - formula.domains_value
+      - formula.created_value
+  - type: table
+    name: Non-reference stances
+    filters:
+      and:
+        - 'file.hasProperty("stance")'
+        - 'stance != "reference"'
+    groupBy:
+      property: formula.stance_value
+      direction: ASC
+    order:
+      - formula.note_link
+      - formula.stance_value
+      - formula.kind_value
+      - formula.domains_value
+  - type: table
+    name: Multi-domain bridge notes
+    filters:
+      and:
+        - 'domains.length > 1'
+    order:
+      - formula.note_link
+      - formula.kind_value
+      - formula.domains_value
+      - formula.stance_value

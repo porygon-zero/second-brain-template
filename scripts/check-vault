@@ -1,0 +1,11 @@
+#!/bin/sh
+set -eu
+
+ROOT=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+cd "$ROOT"
+
+python3 .codex/skills/second-brain-librarian/scripts/validate_taxonomy.py
+python3 -m unittest discover -s .codex/skills/second-brain-librarian/tests -p 'test_*.py'
+python3 -m unittest discover -s .codex/skills/tests -p 'test_*.py'
+
+echo "Vault integrity checks passed."
