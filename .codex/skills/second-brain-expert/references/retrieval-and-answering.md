@@ -18,6 +18,7 @@ When retrieval and focused search find no note that materially informs a factual
 
 ## Knowledge-grounded writing
 
+- For substantial artifact development, follow the shared `../../artifact-development.md` protocol before drafting.
 - Infer or ask for audience, intended effect, genre, and constraints.
 - Preserve the epistemic category of every consequential claim.
 - Adapt vocabulary and abstraction without simplifying by omission.

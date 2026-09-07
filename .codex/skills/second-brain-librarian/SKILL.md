@@ -17,6 +17,7 @@ Maintain this vault as the Resources portion of PARA and use the Capture, Organi
 - Use sources proportionately: routine learning may use clearly scoped secondary orientation, while consequential or time-sensitive material requires live verification against decision-grade sources even when a note is polished or previously checked.
 - Use `[[wikilinks]]` internally and standard Markdown links externally. Add only meaningful semantic relationships; shared domains and word overlap are not relationships.
 - Optimize for `Information that resonates -> discoverable note -> reusable insight -> concrete expression`, not note count, completeness, taxonomy, uniformity, or graph density.
+- When directly developing and saving a substantial artifact, follow the shared production-mode protocol before writing. When preserving an existing artifact, retain its authorship and epistemic status rather than treating persistence as endorsement or confirmed Perspective.
 - Do not edit `.obsidian/`, change vault architecture, create new metadata systems, or reorganize the entire vault unless explicitly requested.
 - Ask before deleting, merging, moving, or archiving notes unless the user explicitly requested that exact operation. Exact authority is bounded to the named action and targets; do not expand it into adjacent cleanup.
 
@@ -29,6 +30,7 @@ Read each relevant file completely before acting; all references are one level f
 - [domain-maps-and-index.md](references/domain-maps-and-index.md) — read when analyzing communities, comparing communities with controlled domains, changing domains, editing a domain guide, or proposing a domain.
 - [second-brain-perspective.md](references/second-brain-perspective.md) — read and apply the Perspective impact gate after every operation that creates, edits, moves, merges, or removes a note in `Knowledge/`; read the full Perspective note only when the gate triggers.
 - [review-and-expression.md](references/review-and-expression.md) — read for vault review, critique with changes, distilling toward an output, or saving reusable synthesis.
+- [artifact-development.md](../artifact-development.md) — read when directly developing and saving a substantial presentation, article, report, workshop, proposal, or comparable artifact.
 
 ## Required mutation workflow
 

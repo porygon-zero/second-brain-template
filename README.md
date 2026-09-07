@@ -20,11 +20,14 @@ The starter already works before setup. Open `Home.md`, browse the synthetic exa
 | **Interlocutor** | You want reflection or challenge shaped by perspective you explicitly recorded | No |
 | **Librarian** | You want to add, improve, organize, or remove durable knowledge | Yes, with your authority |
 
+For presentations, articles, reports, and similar artifacts, choose the role and production mode separately. Use the Expert for neutral vault-grounded work or the Interlocutor when confirmed Perspective should shape it. Then choose delegated production, collaborative development, or a mixed mode with named human decisions and bounded AI tasks. The Librarian handles optional persistence.
+
 Example requests:
 
 - `What does my Second Brain know about learning review cadence?`
 - `Add this to my Second Brain: <URL>`
 - `Help me think through this decision, but do not save anything yet.`
+- `Help me develop a presentation from my agenda. Explain collaborative, delegated, and mixed options before drafting.`
 
 ## Privacy
 

@@ -17,3 +17,5 @@ This is your Second Brain: durable knowledge in files you own.
 2. Keep durable, reusable notes in `Knowledge/`.
 3. Ask the Expert to use knowledge, the Interlocutor to help you reflect, and the Librarian to maintain the vault.
 4. Run `scripts/check-vault` after structural changes.
+
+For a presentation, article, report, or similar artifact, ask the Expert or Interlocutor to explain delegated, collaborative, and mixed production options for your concrete task when the desired working relationship is unclear.

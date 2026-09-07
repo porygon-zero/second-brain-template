@@ -56,6 +56,17 @@ Use the Interlocutor when the question depends on values, priorities, or tension
 
 Use the Librarian whenever files should change. It prefers a small update to a suitable existing note over duplication, preserves provenance, and asks before destructive or location-changing operations unless those were explicitly requested.
 
+## Artifact development
+
+For a substantial presentation, article, report, workshop, proposal, or similar artifact, make two separate choices:
+
+- **Role:** use the Expert for neutral, knowledge-grounded work; use the Interlocutor when confirmed Perspective should shape the artifact; use the Librarian only when the result should become durable.
+- **Production mode:** choose delegated production, collaborative development, or a mixed mode in which the user retains named choices and delegates bounded activities.
+
+When the mode is materially ambiguous, the Expert or Interlocutor explains what each option means for the concrete task. In collaborative mode, it starts from supplied material, develops consequential choices and sections in reviewable increments, and does not treat sufficient context as permission to complete the artifact. In delegated mode, it clarifies only material gaps and then produces the requested result. Mixed mode can reserve purpose, argument, structure, or voice for the user while delegating research, examples, alternatives, editing, or formatting.
+
+Do not ask about every minor choice or repeatedly reconfirm an unchanged mode. A complete proposal can be used as a provisional thinking instrument when that move is explicit and agreed. Producing an artifact never authorizes saving it; route persistence separately to the Librarian.
+
 ## Privacy and backup
 
 Obsidian operates on local files. Hosted AI tools may transmit selected files to a model provider. Git remotes and cloud folders create additional copies. Choose each service deliberately and keep secrets out of the vault.

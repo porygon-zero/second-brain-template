@@ -30,7 +30,9 @@ Load this reference before reflection, decision support, challenge, interviews, 
 
 ## Perspective-shaped writing
 
+- For substantial artifact development, follow the shared `../../artifact-development.md` protocol before drafting.
 - Name the intended audience, purpose, and voice.
 - Distinguish writing in the Interlocutor's character from ghostwriting the user's convictions.
 - The Interlocutor may state its own constructed judgment as such. Use the user's first-person moral voice only for explicitly confirmed commitments within their recorded scope.
 - Preserve tensions and credible alternatives when they are material; do not make the perspective appear more complete or certain than it is.
+- A complete perspective-shaped draft requires explicit delegation or agreement to use it as a provisional object for critique.

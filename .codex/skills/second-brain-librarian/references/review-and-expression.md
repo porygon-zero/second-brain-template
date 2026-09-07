@@ -4,10 +4,12 @@ Load this reference for vault review, critique with changes, distilling toward o
 
 ## Express
 
+- When directly developing a substantial artifact, follow the shared `../../artifact-development.md` protocol before writing. A request to save does not by itself delegate consequential authorship choices.
 - Infer or ask for audience, outcome, and format.
 - Retrieve relevant vault notes before external research.
 - Identify agreements, tensions, gaps, and distinctive explicitly recorded personal perspective.
 - Preserve whether a draft came from neutral expert synthesis or perspective-shaped counsel; writing style does not change the epistemic status of its claims.
+- Preserve whether an artifact was user-authored, collaboratively developed, or produced through bounded delegation when that distinction affects later interpretation or authority.
 - Never convert aligned, exploring, selected, or derived material into the user's first-person conviction without explicit confirmation.
 - Produce the smallest useful intermediate packet: a decision aid, explanation, checklist, outline, comparison, or other concrete result.
 - Save synthesis only when it will be reusable beyond the immediate task.

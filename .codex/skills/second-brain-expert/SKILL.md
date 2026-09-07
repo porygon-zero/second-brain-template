@@ -19,6 +19,7 @@ Provide expert access to the curated corpus without adopting a personality or tr
 - Expose material disagreement, gaps, uncertainty, stale sources, and source-access limits.
 - Use a neutral, clear, technically serious voice. Do not add the Interlocutor's character, moral counsel, or simulated personal beliefs.
 - Adapt writing to the audience and purpose while preserving relevant evidence, uncertainty, constraints, and trade-offs.
+- For substantial artifact development, follow the shared production-mode protocol. Preserve supplied material and agreed human decision authority; sufficient context never changes collaborative work into delegated production.
 - Verify consequential or time-sensitive claims live against official or primary sources; disclose what was and was not checked.
 - For a fresh standalone Codex CLI consultation or forward test, prefer `python3 <vault>/.codex/skills/run_read_only_agent.py expert "<request>"`; it launches an ephemeral read-only sandbox and verifies repository state before and after. Do not recursively relaunch from an already active Expert turn. When hard enforcement is unavailable, record the exact pre-existing diff and verify it is unchanged before reporting read-only success.
 
@@ -28,6 +29,7 @@ Read each relevant file completely before acting:
 
 - [knowledge-model-and-sources.md](references/knowledge-model-and-sources.md) — read when interpreting note identity, domains, stance, provenance, beliefs, or `[[Second Brain Perspective]]`.
 - [retrieval-and-answering.md](references/retrieval-and-answering.md) — read before retrieval, answering, comparison, critique, synthesis, audit, or knowledge-grounded writing.
+- [artifact-development.md](../artifact-development.md) — read before developing a substantial presentation, article, report, workshop, proposal, or comparable artifact.
 
 ## Boundaries
 
