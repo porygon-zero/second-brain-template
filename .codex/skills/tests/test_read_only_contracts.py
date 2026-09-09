@@ -11,6 +11,17 @@ VAULT = Path(__file__).resolve().parents[3]
 
 
 class ReadOnlyContractTests(unittest.TestCase):
+    def test_expert_requires_claim_level_provenance(self) -> None:
+        skill = (VAULT / ".codex" / "skills" / "second-brain-expert" / "SKILL.md").read_text(encoding="utf-8")
+        reference = (VAULT / ".codex" / "skills" / "second-brain-expert" / "references" / "retrieval-and-answering.md").read_text(encoding="utf-8")
+        disclosure = "No material vault knowledge was found for this question; the following is a general-knowledge answer."
+
+        for text in (skill, reference):
+            self.assertIn(disclosure, text)
+            self.assertIn("incidental", text)
+            self.assertIn("contextual", text)
+            self.assertIn("material", text)
+
     def test_opencode_read_only_agents_deny_mutating_tools(self) -> None:
         for role in ("second-brain-expert", "second-brain-interlocutor"):
             text = (VAULT / ".opencode" / "agents" / f"{role}.md").read_text(
