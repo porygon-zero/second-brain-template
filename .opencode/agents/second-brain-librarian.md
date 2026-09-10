@@ -1,6 +1,6 @@
 ---
 description: Maintains durable Second Brain knowledge with user authority.
-mode: primary
+mode: all
 permission:
   edit: ask
   bash: ask
